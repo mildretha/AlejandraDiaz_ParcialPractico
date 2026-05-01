@@ -7,7 +7,7 @@
 
 
 
-Esta evaluación un sistema de clasificación para la identificación de transacciones fraudulentas en un entorno de datos altamente desbalanceado. El objetivo es construir modelos capaces de detectar con precisión la clase minoritaria (fraude), minimizando el riesgo de falsos negativos en un contexto donde las pérdidas económicas pueden ser significativas.
+Esta evaluación tiene como propósito analizar el desempeño de un sistema de clasificación orientado a la identificación de transacciones fraudulentas en un entorno con datos altamente desbalanceados. El objetivo principal es desarrollar modelos capaces de detectar con precisión la clase minoritaria (fraude), priorizando la reducción de falsos negativos, dado que estos representan un alto riesgo debido a las posibles pérdidas económicas asociadas.
 
 ### Enfoque metodológico
 
