@@ -1,8 +1,8 @@
 
 
-## Arquitectura Predictiva para la Detección Inteligente de Fraude Financiero
+# Arquitectura Predictiva para la Detección Inteligente de Fraude Financiero
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6ee90558-87f1-4c62-915a-b73681214d65" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/6ee90558-87f1-4c62-915a-b73681214d65" />
 
 
 
