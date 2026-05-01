@@ -18,15 +18,14 @@ El procesamiento y modelado se realizan en PySpark, lo que facilita el manejo de
 ### Modelos evaluados
 
 Se entrenaron y compararon tres enfoques de clasificación:
-
-- Regresión Logística
+## Regresión Logística
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b2332b48-2724-4d88-aa28-f0ee167dee43" />
 
 
-- Regresión Logística con regularización L1 (Lasso)
+## Regresión Logística con regularización L1 (Lasso)
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/18ba02ed-a889-4d67-a848-1d7a0c08153a" />
 
-- Random Forest
+## Random Forest
 <img width="1536" height="1024" alt="RF_model" src="https://github.com/user-attachments/assets/f2a995dd-df9a-472e-bd42-5fe68a43131a" />
 
 
