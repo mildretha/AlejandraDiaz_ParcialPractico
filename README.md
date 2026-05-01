@@ -22,6 +22,8 @@ Se entrenaron y compararon tres enfoques de clasificación:
 - Regresión Logística
 - Regresión Logística con regularización L1 (Lasso)
 - Random Forest
+<img width="1536" height="1024" alt="RF_model" src="https://github.com/user-attachments/assets/f2a995dd-df9a-472e-bd42-5fe68a43131a" />
+
 
 Cada modelo fue evaluado utilizando métricas robustas para escenarios desbalanceados, incluyendo AUC, PR-AUC, Precision, Recall y F1 Score. Se priorizó especialmente la capacidad de detección de la clase minoritaria.
 
