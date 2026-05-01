@@ -1,1 +1,47 @@
-# R
+
+
+
+
+
+
+
+## Detección de fraude con aprendizaje automático en PySpark
+
+Este proyecto desarrolla un sistema de clasificación para la identificación de transacciones fraudulentas en un entorno de datos altamente desbalanceado. El objetivo es construir modelos capaces de detectar con precisión la clase minoritaria (fraude), minimizando el riesgo de falsos negativos en un contexto donde las pérdidas económicas pueden ser significativas.
+
+### Enfoque metodológico
+
+El trabajo parte de un conjunto de datos donde la proporción de fraude es extremadamente baja, lo que dificulta el aprendizaje de los modelos tradicionales. Para abordar este desafío, se implementa una estrategia de sobremuestreo mediante SVMSMOTE, incrementando la representación de la clase minoritaria hasta un 15% en el conjunto de entrenamiento. Esta decisión permite mejorar la capacidad de los modelos para capturar patrones relevantes sin distorsionar de forma significativa la distribución original de los datos.
+
+El procesamiento y modelado se realizan en PySpark, lo que facilita el manejo de grandes volúmenes de información y la construcción de pipelines escalables.
+
+### Modelos evaluados
+
+Se entrenaron y compararon tres enfoques de clasificación:
+
+- Regresión Logística
+- Regresión Logística con regularización L1 (Lasso)
+- Random Forest
+
+Cada modelo fue evaluado utilizando métricas robustas para escenarios desbalanceados, incluyendo AUC, PR-AUC, Precision, Recall y F1 Score. Se priorizó especialmente la capacidad de detección de la clase minoritaria.
+
+### Resultados y hallazgos
+
+Los resultados muestran un alto desempeño general en los modelos evaluados; sin embargo, Random Forest destaca por su mejor equilibrio entre precisión y capacidad de detección de fraude. Su arquitectura basada en múltiples árboles permite capturar relaciones no lineales y patrones complejos que los modelos lineales no logran representar completamente.
+
+Asimismo, se reconoce que las métricas obtenidas pueden estar influenciadas por el proceso de balanceo, por lo que se enfatiza la importancia de validar el modelo en datos con distribución real antes de su despliegue en producción.
+
+### Recomendaciones
+
+Se propone el uso de Random Forest como modelo principal para implementación, acompañado de análisis adicionales de importancia de variables y correlaciones. Este paso es fundamental para evitar sesgos, mejorar la interpretabilidad y garantizar la robustez del sistema en escenarios reales.
+
+### Tecnologías utilizadas
+
+- PySpark para procesamiento distribuido
+- imbalanced-learn para técnicas de sobremuestreo
+- Modelos de clasificación de Spark MLlib
+- Python para integración y análisis
+
+### Conclusión
+
+El proyecto demuestra que, en problemas de fraude altamente desbalanceados, la combinación de técnicas de balanceo controlado y modelos capaces de capturar complejidad estructural permite obtener soluciones efectivas y aplicables en el sector financiero.
