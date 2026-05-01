@@ -5,7 +5,7 @@
 <img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/6ee90558-87f1-4c62-915a-b73681214d65" />
 
 
-
+### Objetivo
 
 Esta evaluación tiene como propósito analizar el desempeño de un sistema de clasificación orientado a la identificación de transacciones fraudulentas en un entorno con datos altamente desbalanceados. El objetivo principal es desarrollar modelos capaces de detectar con precisión la clase minoritaria (fraude), priorizando la reducción de falsos negativos, dado que estos representan un alto riesgo debido a las posibles pérdidas económicas asociadas.
 
