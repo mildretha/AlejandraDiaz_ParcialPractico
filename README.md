@@ -1,13 +1,13 @@
 
 
-
-
-
-
-
 ## Arquitectura Predictiva para la Detección Inteligente de Fraude Financiero
 
-Este proyecto desarrolla un sistema de clasificación para la identificación de transacciones fraudulentas en un entorno de datos altamente desbalanceado. El objetivo es construir modelos capaces de detectar con precisión la clase minoritaria (fraude), minimizando el riesgo de falsos negativos en un contexto donde las pérdidas económicas pueden ser significativas.
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6ee90558-87f1-4c62-915a-b73681214d65" />
+
+
+
+
+Esta evaluación un sistema de clasificación para la identificación de transacciones fraudulentas en un entorno de datos altamente desbalanceado. El objetivo es construir modelos capaces de detectar con precisión la clase minoritaria (fraude), minimizando el riesgo de falsos negativos en un contexto donde las pérdidas económicas pueden ser significativas.
 
 ### Enfoque metodológico
 
